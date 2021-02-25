@@ -210,38 +210,111 @@ foreach ($lead_ids as $lead_id) {
     $section3_single_drain = $form_data['field']['172'];
     $section3_items_explanation = $form_data['field']['173'];
 
-    /* Section 4 Checkmark Items - Page 9 */
+    /* Section 4 Repairs - Page 9 */
     $section4_aware_of_repairs = $form_data['field']['176'];
     $section4_repairs_explanation = $form_data['field']['175'];
 
 
-    /* Section 5 Checkmark Items - Page 10 */
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
-    $section5_ = $form_data['field'][''];
+    /* Section 5 Flooding - Page 10 */
+    $section5_present_flood_coverage = $form_data['field']['180'];
+    $section5_previous_flooding_reservoir = $form_data['field']['181'];
+    $section5_present_flooding_natural_flood = $form_data['field']['182'];
+    $section5_previous_water_penetration = $form_data['field']['183'];
+    $section5_located_100_year_floodplain = $form_data['field']['185'];
+    $section5_100_year_floodplain_wholly_partly = $form_data['field']['189'];
+    $section5_located_500_year_floodplain = $form_data['field']['188'];
+    $section5_500_year_floodplain_wholly_partly = $form_data['field']['190'];
+    $section5_located_floodway = $form_data['field']['184'];
+    $section5_floodway_wholly_partly = $form_data['field']['191'];
+    $section5_located_flood_pool = $form_data['field']['186'];
+    $section5_flood_pool_wholly_partly = $form_data['field']['192'];
+    $section5_located_reservoir = $form_data['field']['187'];  
+    $section5_reservoir_wholly_partly = $form_data['field']['193'];
+
+     /* Section 6 Flood Damage Claim - Page 11 */
+    $section6_flood_claim = $form_data['field']['196'];
+    $section6_explanation = $form_data['field']['197'];
 
 
+     /* Section 7 Flood Assistance - Page 12 */
+     $section7_flood_assistance = $form_data['field']['201'];
+     $section7_explanation = $form_data['field']['200'];    
+
+      /* Section 8 HOA - Page 13 */
+    $section8_noncompliant_alterantions = $form_data['field']['204'];
+    $section8_hoa_fees_maintenance = $form_data['field']['205'];
+    $section8_name_of_association = $form_data['field']['206'];
+    $section8_manager_name = $form_data['field']['207'];
+    $section8_manager_phone = $form_data['field']['276'];
+    $section8_fees_assessments = $form_data['field']['209'];
+    $section8_fees_period = $form_data['field']['210'];
+    $section8_fees_mandatory_voluntary = $form_data['field']['211'];
+    $section8_unpaid_fees = $form_data['field']['212'];
+    $section8_amount = $form_data['field']['213'];
+    $section8_common_facilities = $form_data['field']['214'];
+    $section8_optional_fees = $form_data['field']['215'];
+    $section8_optional_fees_desc = $form_data['field']['216'];
+    $section8_violations = $form_data['field']['217'];
+    $section8_lawsuits = $form_data['field']['218'];
+    $section8_death = $form_data['field']['219'];
+    $section8_condition_affecting_health_safety = $form_data['field']['220'];
+    $section8_hazard_treatments = $form_data['field']['221'];
+    $section8_rainwater_harvesting_system = $form_data['field']['222'];
+    $section8_located_propance_gas_area = $form_data['field']['223'];
+    $section8_located_groundwater_conservation_district = $form_data['field']['224'];
+    $section8_explanation = $form_data['field']['225'];
+  
+
+    /* Section 9 Survey - Page 14 */
+    $section9_survey = $form_data['field']['228'];
+
+    /* Section 10 Inspections - Page 15 */
+    $section10_previous_inspections = $form_data['field']['231'];
+    $section10_inspection_date = $form_data['field']['232'];
+    $section10_type = $form_data['field']['233'];
+    $section10_inspector_name = $form_data['field']['234'];
+    $section10_no_pages = $form_data['field']['235'];
+    $section10_another_inspection = $form_data['field']['336'];
+    $section10_inspection_date_2 = $form_data['field']['240'];
+    $section10_type_2 = $form_data['field']['239'];
+    $section10_inspector_name_2 = $form_data['field']['238'];
+    $section10_no_pages_2 = $form_data['field']['237'];
+
+    /* Section 11 Tax Exemptions - Page 16 */
+    $section11_tax_exemptions = $form_data['field']['243'];
+    $section11_other = $form_data['field']['244'];
+
+    /* Section 12 Damage Claim - Page 17 */
+    $section12_damage_claim = $form_data['field']['247'];
+
+    /* Section 13 Damage Claim - Page 18 */
+    $section13_damage_claim_misused = $form_data['field']['250'];
+    $section13_explanation = $form_data['field']['251'];
+
+    /* Section 14 Smoke Detectors - Page 19 */
+    $section14_smoke_detectors = $form_data['field']['254'];
+    $section14_explanation = $form_data['field']['255'];
 
 
-
-
-
-
-
-
-
-
-
-
-
+     /* Services - Page 20 */
+    $services_electric = $form_data['field']['258'];
+    $services_electric_phone = $form_data['field']['259'];
+    $services_sewer = $form_data['field']['260'];
+    $services_sewer_phone = $form_data['field']['261'];
+    $services_water = $form_data['field']['262'];
+    $services_water_phone = $form_data['field']['263'];
+    $services_cable = $form_data['field']['264'];
+    $services_cable_phone = $form_data['field']['265'];
+    $services_trash = $form_data['field']['266'];
+    $services_trash_phone = $form_data['field']['267'];
+    $services_natural_gas = $form_data['field']['268'];
+    $services_natural_gas_phone = $form_data['field']['269'];
+    $services_phone_company = $form_data['field']['270'];
+    $services_phone_company_phone = $form_data['field']['271'];
+    $services_propane = $form_data['field']['272'];
+    $services_propane_phone = $form_data['field']['273'];
+    $services_internet = $form_data['field']['274'];
+    $services_internet_phone = $form_data['field']['275'];
 
 
 
